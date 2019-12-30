@@ -19,5 +19,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.sort_with {|a, b| a.gsub[3]"$" <=> b.gsub[3]"$"}
+  array.sort {|a, b| a.gsub[3]"$" <=> b.gsub[3]"$"}
 end

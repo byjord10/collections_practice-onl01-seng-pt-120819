@@ -25,3 +25,7 @@ end
 def find_a(array)
   array.select {|elements| elements.start_with?("a")}
 end
+
+def sum_array(array)
+  array.collect {|integers| integers.sum}
+end 

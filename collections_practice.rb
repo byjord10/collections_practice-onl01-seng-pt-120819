@@ -27,5 +27,5 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.collect {|integers| integers.sum}
-end 
+  array.inject(0,:+)
+end
